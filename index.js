@@ -28,7 +28,7 @@ function updateTimer() {
   const pickUserHand = (hand) => {
     let hands = document.querySelector(".handchoices");
     hands.style.display = "none";
-    countdown = 3; // Set the countdown time to 3 seconds
+    countdown = 1; // Set the countdown time to 1 seconds
     clearInterval(timerInterval); // Clear any existing intervals
     updateTimer(); // Initial display
     timerInterval = setInterval(updateTimer, 1000); 
